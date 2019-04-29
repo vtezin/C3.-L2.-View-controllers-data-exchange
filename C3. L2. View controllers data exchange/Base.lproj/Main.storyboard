@@ -1,24 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uh1-St-16c">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Green-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Green" id="BYZ-38-t0r" customClass="ViewController" customModule="C3__L2__View_controllers_data_exchange" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Green" image="leaf" id="Huw-fh-lyK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="425" y="856"/>
+        </scene>
+        <!--Blue-->
+        <scene sceneID="Eq7-6Q-Msi">
+            <objects>
+                <viewController title="Blue" id="SBr-Qw-GER" customClass="ViewController" customModule="C3__L2__View_controllers_data_exchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w46-yP-sQA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="24p-D4-t0I"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Blue" image="water" id="O6j-Uj-x7q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tz4-xh-pzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1249" y="856"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="Ce7-kf-HDJ">
+            <objects>
+                <viewController title="Yellow" id="eZD-vH-PeQ" customClass="ViewController" customModule="C3__L2__View_controllers_data_exchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2jb-K9-jSv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UJU-LB-KUV">
+                                <rect key="frame" x="20" y="72" width="335" height="526"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events history:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ril-E3-UsI">
+                                <rect key="frame" x="20" y="40" width="335" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UJU-LB-KUV" firstAttribute="leading" secondItem="46n-M7-cYI" secondAttribute="leading" constant="20" id="L5z-cg-Ofl"/>
+                            <constraint firstItem="UJU-LB-KUV" firstAttribute="top" secondItem="ril-E3-UsI" secondAttribute="bottom" constant="8" id="M8Z-Zy-rOq"/>
+                            <constraint firstItem="ril-E3-UsI" firstAttribute="leading" secondItem="46n-M7-cYI" secondAttribute="leading" constant="20" id="TUV-mU-S9c"/>
+                            <constraint firstItem="46n-M7-cYI" firstAttribute="trailing" secondItem="ril-E3-UsI" secondAttribute="trailing" constant="20" id="UkS-ZG-GiH"/>
+                            <constraint firstItem="46n-M7-cYI" firstAttribute="trailing" secondItem="UJU-LB-KUV" secondAttribute="trailing" constant="20" id="iC3-PV-Er9"/>
+                            <constraint firstItem="46n-M7-cYI" firstAttribute="bottom" secondItem="UJU-LB-KUV" secondAttribute="bottom" constant="20" id="jWc-98-nqZ"/>
+                            <constraint firstItem="ril-E3-UsI" firstAttribute="top" secondItem="46n-M7-cYI" secondAttribute="top" constant="20" id="k88-yh-U7w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="46n-M7-cYI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Yellow (history)" image="timeMashine" id="F6V-sI-aJD"/>
+                    <connections>
+                        <outlet property="eventsHistoryTextView" destination="UJU-LB-KUV" id="8AW-ZH-DPI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yaw-MU-0kn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-372" y="855.9220389805098"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VoF-hP-8kb">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uh1-St-16c" customClass="TabBarController" customModule="C3__L2__View_controllers_data_exchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lav-ei-wBA">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eZD-vH-PeQ" kind="relationship" relationship="viewControllers" id="uGo-os-d9T"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="lMo-es-MNh"/>
+                        <segue destination="SBr-Qw-GER" kind="relationship" relationship="viewControllers" id="rT3-bB-HME"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="63s-Mp-1z5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="25.637181409295355"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="leaf" width="36" height="36"/>
+        <image name="timeMashine" width="36" height="36"/>
+        <image name="water" width="36" height="36"/>
+    </resources>
 </document>

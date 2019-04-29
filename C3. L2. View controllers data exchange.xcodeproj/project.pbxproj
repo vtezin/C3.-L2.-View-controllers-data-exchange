@@ -12,6 +12,7 @@
 		84EFD2C62276B7FD00B19727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD2C42276B7FD00B19727 /* Main.storyboard */; };
 		84EFD2C82276B7FE00B19727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD2C72276B7FE00B19727 /* Assets.xcassets */; };
 		84EFD2CB2276B7FE00B19727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD2C92276B7FE00B19727 /* LaunchScreen.storyboard */; };
+		84EFD2D32276DEA200B19727 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD2D22276DEA200B19727 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84EFD2C72276B7FE00B19727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EFD2CA2276B7FE00B19727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EFD2CC2276B7FE00B19727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EFD2D22276DEA200B19727 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				84EFD2C02276B7FD00B19727 /* AppDelegate.swift */,
 				84EFD2C22276B7FD00B19727 /* ViewController.swift */,
 				84EFD2C42276B7FD00B19727 /* Main.storyboard */,
+				84EFD2D22276DEA200B19727 /* TabBarController.swift */,
 				84EFD2C72276B7FE00B19727 /* Assets.xcassets */,
 				84EFD2C92276B7FE00B19727 /* LaunchScreen.storyboard */,
 				84EFD2CC2276B7FE00B19727 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EFD2D32276DEA200B19727 /* TabBarController.swift in Sources */,
 				84EFD2C32276B7FD00B19727 /* ViewController.swift in Sources */,
 				84EFD2C12276B7FD00B19727 /* AppDelegate.swift in Sources */,
 			);
