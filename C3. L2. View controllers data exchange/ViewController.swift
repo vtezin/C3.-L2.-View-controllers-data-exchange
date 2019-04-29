@@ -22,7 +22,13 @@ class ViewController: UIViewController {
     
     ///adding new string to eventsHistoryContainer
     private func addEventDescriptionToContainer(addString:String) {
-        eventsHistoryContainer += "\n" + addString
+        
+        let date = Date()
+        let format = DateFormatter()
+        format.dateFormat = "HH:mm:ss"
+        let formattedDate = format.string(from: date)
+        
+        eventsHistoryContainer += "\n" + formattedDate + " : " + addString
     }
     
     override func viewDidLoad() {
